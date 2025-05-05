@@ -1,7 +1,6 @@
-
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowLeft, Home, Compass, Mountains, Lightbulb, MapPin, ChevronRight } from "lucide-react";
+import { ArrowRight, ArrowLeft, Home, Compass, Mountain, Lightbulb, MapPin, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -15,7 +14,7 @@ const servicesData = [
     title: "Удаленные локации",
     description: "Строительство домов и объектов в труднодоступных районах с полной автономностью",
     image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=1200&auto=format",
-    icon: <Mountains className="h-6 w-6" />,
+    icon: <Mountain className="h-6 w-6" />,
   },
   {
     id: "custom",
@@ -104,12 +103,14 @@ const Index = () => {
       <section className="relative h-[70vh] md:h-[80vh] flex items-center overflow-hidden geometric-bg">
         <div 
           className="absolute inset-0 z-0 bg-black" 
-          style={{
-            backgroundImage: "url(https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1500&auto=format)",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            opacity: 0.7
-          }}
+          style={
+            {
+              backgroundImage: "url(https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1500&auto=format)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              opacity: 0.7
+            }
+          }
         ></div>
         <div className="container relative z-10 mx-auto px-4">
           <div className="max-w-3xl">

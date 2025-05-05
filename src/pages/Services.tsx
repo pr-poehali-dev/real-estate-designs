@@ -1,6 +1,5 @@
-
-import { Link } from "react-router-dom";
-import { ChevronRight, Home, Compass, Mountains, Lightbulb, Wrench, Cpu, GalleryThumbnails } from "lucide-react";
+import { Link } from "react-router-dom");
+import { ChevronRight, Home, Compass, Mountain, Lightbulb, Wrench, Cpu, GalleryThumbnails } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -14,7 +13,7 @@ const servicesData = [
     title: "Строительство в труднодоступных местах",
     description: "Мы специализируемся на строительстве объектов в местах, где другие компании не берутся работать. Горы, леса, побережья — мы доставим все необходимые материалы и организуем полноценное строительство.",
     image: "https://images.unsplash.com/photo-1518780664697-55e3ad937233?q=80&w=1200&auto=format",
-    icon: <Mountains className="h-6 w-6" />,
+    icon: <Mountain className="h-6 w-6" />,
     benefits: [
       "Логистика в любых условиях",
       "Автономные инженерные системы",
