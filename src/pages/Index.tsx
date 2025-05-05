@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, ArrowLeft, Home, Compass, Mountain, Lightbulb, MapPin, ChevronRight } from "lucide-react";
+import { ArrowRight, ArrowLeft, Home, Compass, Mountain, Lightbulb, MapPin, ChevronRight, Phone, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -263,7 +263,7 @@ const Index = () => {
               onClick={prevSlide}
             >
               <ArrowLeft className="h-4 w-4" />
-              <span className="sr-only">Предыдущий слайд</span>
+              <span className="sr-only">Preduccií slid</span>
             </Button>
             
             <Button 
